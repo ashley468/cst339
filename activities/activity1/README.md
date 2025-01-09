@@ -37,3 +37,35 @@ public class CodeBlock {
     }
 }
 ```
+
+## Participation Discussion and Responses
+
+#### Topic 1 - Participation Question 1
+
+**Class, we learned about the Spring Tool Suite (STS), please explain the following with technical details:**
+
+**What is the Spring Framework?**
+ 
+The Spring Framework is a versatile and comprehensive platform for enterprise Java Development. It’s known for Inversion of Control and Dependency injection capabilities, which simplify the creation of modular and testable applications. 
+
+
+**What is Spring Tool Suite (STS)?**
+
+STS is a Java IDE tailored for developing Spring-based enterprise applications. It’s faster, easier, and much more convenient. 
+
+#### Topic 1 - Participation Question 2
+
+Class, we learned about Maven, please explain the following with technical details:
+
+**What is Maven?**
+
+Maven is a build automation tool mainly used for Java-based projects. It simplifies the build process such as source code compilation, packaging, deployment, and testing. 
+
+
+**What is the Project Object Model (POM) File?**
+
+A POM File is the fundamental unit of work in maven. It’s an XML File that had information about the project and configuring details used by maven to create the project. 
+
+# Conclusion
+
+..
