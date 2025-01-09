@@ -12,6 +12,8 @@
 
 [wikiBob](https://gitlab.com/bobby.estey/wikibob/-/blob/master/README.md)
 
+[cst339](https://gitlab.com/bobby.estey/gcuStudent/-/tree/main/CST339?ref_type=heads)
+
 [Google](https://google.com)
 
 |Firstname|Lastname|University|Class|
