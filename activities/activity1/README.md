@@ -55,6 +55,8 @@ public class CodeBlock {
 ![BuildConfiguration](buildconfig.png)
 - This is a screenshot of the Maven Build Configuration.
 
+![MavenSuccess](MavenSuccess.png)
+- This is a screenshot of the Maven Console with a build success.
 
 ## Participation Discussion and Responses
 
