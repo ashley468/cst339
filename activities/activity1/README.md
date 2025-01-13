@@ -65,7 +65,7 @@ public class CodeBlock {
 
 #### Topic 1 - Participation Question 1
 
-**Class, we learned about the Spring Tool Suite (STS), please explain the following with technical details:**
+*Class, we learned about the Spring Tool Suite (STS), please explain the following with technical details:*
 
 **What is the Spring Framework?**
  
@@ -78,7 +78,7 @@ STS is a Java IDE tailored for developing Spring-based enterprise applications. 
 
 #### Topic 1 - Participation Question 2
 
-Class, we learned about Maven, please explain the following with technical details:
+*Class, we learned about Maven, please explain the following with technical details:*
 
 **What is Maven?**
 
