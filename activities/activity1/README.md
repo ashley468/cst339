@@ -58,6 +58,9 @@ public class CodeBlock {
 ![MavenSuccess](MavenSuccess.png)
 - This is a screenshot of the Maven Console with a build success.
 
+![JAR](JAR.png)
+- This is a screenshot of the Java Archive (JAR) file execution.
+
 ## Participation Discussion and Responses
 
 #### Topic 1 - Participation Question 1
