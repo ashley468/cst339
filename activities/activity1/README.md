@@ -40,6 +40,8 @@ public class CodeBlock {
 
 ## Screenshots
 
+![SpringTools](springtools.png)
+- This is a screenshot of the spring tools box. 
 
 ![Springboot](springboot.png)
 - This is the springboot application running with hello world.
