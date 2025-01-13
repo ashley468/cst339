@@ -49,8 +49,12 @@ public class CodeBlock {
 ![ErrorPage](whitelabelerror.png)
 - This is the whitelabel Error Page. 
 
-![BuildConfiguration](buildconfiguration.png)
+![Topic1Page](topic1.png)
+- This is a screenshot of the Spring Boot Application Topic 1 Page. 
+
+![BuildConfiguration](buildconfig.png)
 - This is a screenshot of the Maven Build Configuration.
+
 
 ## Participation Discussion and Responses
 
