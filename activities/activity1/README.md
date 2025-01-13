@@ -38,6 +38,16 @@ public class CodeBlock {
 }
 ```
 
+## Screenshots
+
+
+![Springboot](springboot.png)
+- This is the springboot application running with hello world.
+
+![ErrorPage](whitelabelerror.png)
+- This is the whitelabel Error Page. 
+
+
 ## Participation Discussion and Responses
 
 #### Topic 1 - Participation Question 1
