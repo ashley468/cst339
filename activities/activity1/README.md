@@ -49,6 +49,8 @@ public class CodeBlock {
 ![ErrorPage](whitelabelerror.png)
 - This is the whitelabel Error Page. 
 
+![BuildConfiguration](buildconfiguration.png)
+- This is a screenshot of the Maven Build Configuration.
 
 ## Participation Discussion and Responses
 
