@@ -17,7 +17,10 @@
 <br>
 
 - This is a screenshot of the MVC test screen 2
-    - **SCREENSHOT!!!*
+
+![Screen2](test2.png)
+<br>
+
 - This is a screenshot of the MVC test screen 3
     - **SCREENSHOT!!!*
 - This is a screenshot of the MVC test screen 4
