@@ -14,8 +14,7 @@
 - This is a screenshot of the MVC test screen 1
 
 ![Screen1](test1.png)
-- hi
-
+<br>
 
 - This is a screenshot of the MVC test screen 2
     - **SCREENSHOT!!!*
