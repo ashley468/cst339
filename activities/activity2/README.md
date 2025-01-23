@@ -31,12 +31,45 @@
 ![Screen4](test4.png)
 <br>
 
-- This is a screenshot of the MVC test screen Tymeleead
-    - **SCREENSHOT!!!*
+- This is a screenshot of the MVC test screen with the welcome message
+
+![RouteController](controllerroutes.png)
+<br>
+
+### Part 2: Creating Forms with Data Validation Using Spring MVC
+
+- This is a screenshot of the Login Forms with no data validation
+- **SCREENSHOT!!!!
+<br>
+
+- This is a screenshot of the Login Form posted values in the Console Window
+- **SCREENSHOT!!!!
+<br>
+
+- This is a screenshot of the Login Form with data validation errors
+- **SCREENSHOT!!!!
+<br>
+
+- This is a screenshot of the My Orders Console Page
+- **SCREENSHOT!!!!
+<br>
+
+### Part 3 Creating Layouts Using Thymeleaf
+
+- GCU Logo (####FIIIIXXXX!!!!!)
+- This is a screenshot of the Login Page
+- **SCREENSHOT!!!!
+<br>
+
+- This is a screenshot of the Orders Page
+- **SCREENSHOT!!!!
+<br>
+
+
 
 # Research Questions
 - Questions & Answers
-    - *Continue Here!!!
+    - **Continue Here!!!
 
 # Conclusion
-- Do Conclusion here!!
+- **Do Conclusion here!!
