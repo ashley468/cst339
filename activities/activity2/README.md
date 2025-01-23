@@ -22,7 +22,10 @@
 <br>
 
 - This is a screenshot of the MVC test screen 3
-    - **SCREENSHOT!!!*
+
+![Screen3](test3.png)
+<br>
+
 - This is a screenshot of the MVC test screen 4
     - **SCREENSHOT!!!*
 - This is a screenshot of the MVC test screen Tymeleead
