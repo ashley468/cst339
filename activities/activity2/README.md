@@ -57,7 +57,7 @@
 
 ### Part 3 Creating Layouts Using Thymeleaf
 
-- [GCU LOGO](https://gitlab.com/bobby.estey/gcuStudent/-/raw/main/src/main/resources/static/images/gcu-logo.png)
+- [GCU Logo](https://gitlab.com/bobby.estey/gcuStudent/-/raw/main/src/main/resources/static/images/gcu-logo.png)
 
 
 - This is a screenshot of the Login Page
