@@ -39,15 +39,15 @@
 ### Part 2: Creating Forms with Data Validation Using Spring MVC
 
 - This is a screenshot of the Login Forms with no data validation
-- **SCREENSHOT!!!!
+![LoginForm](loginForm.png)
 <br>
 
 - This is a screenshot of the Login Form posted values in the Console Window
-- **SCREENSHOT!!!!
+![LoginForm2](loginForm2.png)
 <br>
 
 - This is a screenshot of the Login Form with data validation errors
-- **SCREENSHOT!!!!
+![LoginForm3](loginForm3.png)
 <br>
 
 - This is a screenshot of the My Orders Console Page
