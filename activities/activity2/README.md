@@ -57,12 +57,14 @@
 ### Part 3 Creating Layouts Using Thymeleaf
 
 - GCU Logo (####FIIIIXXXX!!!!!)
+
+
 - This is a screenshot of the Login Page
-- **SCREENSHOT!!!!
+![LoginPg](loginPg.png)
 <br>
 
 - This is a screenshot of the Orders Page
-- **SCREENSHOT!!!!
+![Orderspg](ordersPg.png)
 <br>
 
 
