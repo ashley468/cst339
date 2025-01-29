@@ -39,6 +39,7 @@
 ### Part 2: Creating Forms with Data Validation Using Spring MVC
 
 - This is a screenshot of the Login Forms with no data validation
+
 ![LoginForm](loginForm.png)
 <br>
 
