@@ -52,12 +52,13 @@
 <br>
 
 - This is a screenshot of the My Orders Console Page
-- **SCREENSHOT!!!!
+![OrdersConsole](ordersConsole.png)
 <br>
 
 ### Part 3 Creating Layouts Using Thymeleaf
 
 - GCU Logo (####FIIIIXXXX!!!!!)
+![Logo]()
 
 
 - This is a screenshot of the Login Page
