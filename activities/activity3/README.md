@@ -76,7 +76,15 @@ code to interface contracts?
     class and is useful for integrating third-party libraries or defining beans with custom 
     initialization logic. For example, you might use @Bean to define a custom instance of an external DataSource object. 
 
-2. ***
+2. 
+    - By programming to interfaces, you can create code that is more modular and 
+    flexible, making it easier to adapt and extend in the future. The IoC container enforces this approach by managing object creation and dependencies, 
+    allowing you to inject different implementations of an interface at runtime without 
+    changing the dependent classes. This leads to better decoupling between components and 
+    allows for easy replacement or enhancement of functionality. To maintain a clear separation 
+    of concerns, it's important to keep the IoC container configuration separate from your business logic. 
+    This separation ensures that your business logic remains focused on the application's core functions, 
+    while the IoC container takes care of managing object dependencies and their lifecycle. 
 
 
 ## Part 2 Questions
