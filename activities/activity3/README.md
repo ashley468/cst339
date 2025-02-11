@@ -47,10 +47,7 @@
 - This is a screenshot of the Postman XML response
 **Screenshot*
 
-## Research Questions - located in Activity Guide
-- **DON'T FORGET TO INCLUDE QUESTIONS & ANSWERS!!!*
-- **Post the Questions and Answers*
-
+## Research Questions
 
 ### Questions
 1. What is the difference between the @Component, @ Service, and @Bean 
@@ -99,3 +96,4 @@ calls to init() where made of the following annotations
 
 ## Conclusion
 - **Place a Conclusion here!!!*
+
