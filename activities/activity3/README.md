@@ -47,12 +47,41 @@
 - This is a screenshot of the Postman XML response
 **Screenshot*
 
-### Research Questions - located in Activity Guide
+## Research Questions - located in Activity Guide
 - **DON'T FORGET TO INCLUDE QUESTIONS & ANSWERS!!!*
 - **Post the Questions and Answers*
 
+
+### Questions
+1. What is the difference between the @Component, @ Service, and @Bean 
+annotations? When would you use one versus the other?
+
+2. Why does an Inversion of Control (IoC) Container force you to design and 
+code to interface contracts?
+
+### Answers
+1.
+    - @Component is a class-level annotation used to mark a class as a Spring-managed Component. 
+    It allows Spring to detect and manage the class as a bean through component scanning. 
+    This annotation is ideal for generic components that encapsulate reusable operations, such as utility classes.  
+
+    - @Service is a specialization of @Component, specifically used for classes containing business logic. It conceptually belongs to the 
+    service layer. Marking as a class with @Service makes your code more readable and organized, clearly indicating its 
+    purpose. Spring will autodetect these classes when using annotation-based configuration. For instance, 
+    you might annotate a payment service class with @service to manage payment processing logic.
+    
+    - @Bean is used to declare a single bean explicitly when automatic component scanning is 
+    insufficient. It decouples the declaration of the bean from the class definition, allowing 
+    you to create and configure beans as needed. @Bean is typically used inside a @Configuration 
+    class and is useful for integrating third-party libraries or defining beans with custom 
+    initialization logic. For example, you might use @Bean to define a custom instance of an external DataSource object. 
+
+2. ***
+
+
 ## Part 2 Questions
-- Explain in 2-3 sentences how the code worked (when init() was called) and why the number of calls to init() where made of the following annotations
+- Explain in 2-3 sentences how the code worked (when init() was called) and why the number of 
+calls to init() where made of the following annotations
 
     - @scope(value="prototype", proxyMode=ScopedProxyMode.TARGET_CLASS)
     - @RequestScope
