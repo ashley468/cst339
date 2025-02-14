@@ -22,7 +22,7 @@
 **Screenshot*
 
 - This is a screenshot of the Orders page
-**Screenshot*
+![Orders](orders.png)
 
 ### Part 2:  Spring Bean Life Cycle and Scopes
 - This is a screenshot of the init method call
