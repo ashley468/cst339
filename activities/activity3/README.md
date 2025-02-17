@@ -16,7 +16,7 @@
 **Screenshot*
 
 - This is a screenshot of the Another Interface being called
-**Screenshot*
+![AnotherInterface](anotherInterface.png)
 
 - This is a screenshot of the Authenticate being called
 <br>
