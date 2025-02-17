@@ -19,7 +19,8 @@
 **Screenshot*
 
 - This is a screenshot of the Authenticate being called
-![Authenictaed](authenticated.png)
+<br>
+![Authenticated](authenticated.png)
 
 - This is a screenshot of the Orders page
 ![Orders](orders.png)
