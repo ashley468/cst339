@@ -13,7 +13,9 @@
 ## Screenshots
 ### Part 1: Creating Modles, Views, and Controllers Using Spring MVC 
 - This is a screenshot of the interface being called
-**Screenshot*
+<br>
+
+![Interface](interface.png)
 
 - This is a screenshot of the Another Interface being called
 <br>
