@@ -20,6 +20,7 @@
 
 - This is a screenshot of the Authenticate being called
 <br>
+
 ![Authenticated](authenticated.png)
 
 - This is a screenshot of the Orders page
