@@ -19,7 +19,7 @@
 **Screenshot*
 
 - This is a screenshot of the Authenticate being called
-**Screenshot*
+![Authenictaed](authenticated.png)
 
 - This is a screenshot of the Orders page
 ![Orders](orders.png)
