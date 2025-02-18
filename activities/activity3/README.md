@@ -45,7 +45,9 @@
 ![RequestScope](requestScope.png)
 
 - This is a screenshot of the @sessionScope annotation
-**Screenshot & link!!!*
+<br>
+
+![SessionScope](sessionScope.png)
 
 ### Part 3:  Creating REST Services Using Spring REST Controllers
 - This is a screenshot of the JSON response
