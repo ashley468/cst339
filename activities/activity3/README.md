@@ -44,7 +44,8 @@
 
 ![RequestScope](requestScope.png)
 
-- This is a screenshot of the @sessionScope annotation
+- This is a screenshot of the @sessionScope annotation.
+- Just as with the rest of the screenshots, the number of times the init() method appears depends on how many times the site is refreshed. Each time the page is reloaded, the init() method is called to initialize the page. This makes sure that any necessary setup for the page, such as setting default values, is performed and that the code behaves as intended with each new session or reload.
 <br>
 
 ![SessionScope](sessionScope.png)
