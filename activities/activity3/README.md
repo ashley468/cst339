@@ -38,7 +38,8 @@
 ![InitMethod](initMethod.png)
 
 
-- This is a screenshot of the @RequestScope annotation
+- This is a screenshot of the @RequestScope annotation.
+- The init() method is called each time the program is executed or when the page is refreshed. The number of times it's called depends on how many times the site is refreshed or how many instances are initialized during the program's runtime.
 <br>
 
 ![RequestScope](requestScope.png)
