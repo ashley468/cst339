@@ -32,7 +32,11 @@
 
 ### Part 2:  Spring Bean Life Cycle and Scopes
 - This is a screenshot of the init method call
-**Screenshot*
+- The init method was added in the "OrdersBusinessService" and "AnotherOrdersBusinessService" classes after it was first declared in the "OrdersBusinessServiceInterface". We also had to modify the @Bean section in the "SpringConfig" class to make sure that the correct implementation was used. The number of times that the init method was called depends on how many times the corresponding beans were instantiated. 
+<br>
+
+![InitMethod](initMethod.png)
+
 
 - This is a screenshot of the @RequestScope annotation
 **Screenshot*
