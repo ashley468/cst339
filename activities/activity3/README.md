@@ -39,7 +39,9 @@
 
 
 - This is a screenshot of the @RequestScope annotation
-**Screenshot*
+<br>
+
+![RequestScope](requestScope.png)
 
 - This is a screenshot of the @sessionScope annotation
 **Screenshot & link!!!*
