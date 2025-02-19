@@ -128,9 +128,9 @@ code to interface contracts?
         - Description: Retrieves a list of products in XML format.
 ### Error Handling
 -----------------
-|Status|Response|
+|**Status**|**Response**|
+|----------|------------|
 |500| Something went wrong|
-----------------------
 
 ### API Conclusion
 - **Conclusion 
