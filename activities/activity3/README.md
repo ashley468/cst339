@@ -52,10 +52,10 @@
 
 ### Part 3:  Creating REST Services Using Spring REST Controllers
 - This is a screenshot of the JSON response
-**Screenshot*
+![Json](json.png)
 
 - This is a screenshot of the XML response
-**Screenshot*
+![XML](xml.png)
 
 - This is a screenshot of the Postman JSON response
 **Screenshot*
