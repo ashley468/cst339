@@ -105,15 +105,27 @@ code to interface contracts?
     This separation ensures that your business logic remains focused on the application's core functions, 
     while the IoC container takes care of managing object dependencies and their lifecycle. 
 
+## Rest API design Report
+### Introduction
+    - This document describes the REST API document for the orders service. The API lets cleints retrieve a list of orders in json and xml formats, used with Spring REST controllers. 
 
-## Part 2 Questions
-- Explain in 2-3 sentences how the code worked (when init() was called) and why the number of 
-calls to init() where made of the following annotations
+### Base URL
+    - http://localhost:8080/service
 
-    - @scope(value="prototype", proxyMode=ScopedProxyMode.TARGET_CLASS)
-    - @RequestScope
-    - @sessionScope **Don't forget link!!!*
-    - SingletonScope
+### Endpoints
+    Json
+        - Endpoint: /getjson
+        - Method: Get
+        - Request URL: http://localhost:8080/service/getjson
+        - Format: Json
+        - Description: Retrieves a list of products in Json format.
+
+    XML
+        - Endpoint: /getxml
+        - Method: Get
+        - Request URL: http://localhost:8080/service/getxml
+        - Format: XML
+        - Description: Retrieves a list of products in XML format.
 
 
 ## Conclusion
