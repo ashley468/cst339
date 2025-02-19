@@ -126,6 +126,15 @@ code to interface contracts?
         - Request URL: http://localhost:8080/service/getxml
         - Format: XML
         - Description: Retrieves a list of products in XML format.
+### Error Handling
+-----------------
+|Status|Response|
+|500| Something went wrong|
+----------------------
+
+### API Conclusion
+- **Conclusion 
+
 
 
 ## Conclusion
