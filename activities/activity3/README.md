@@ -65,6 +65,8 @@
 ![PostmanJson](postmanJson.png)
 
 - This is a screenshot of the Postman XML response
+<br>
+
 ![PostmanXml](postmanXml.png)
 
 ## Research Questions
