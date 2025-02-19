@@ -107,7 +107,7 @@ code to interface contracts?
 
 ## Rest API design Report
 ### Introduction
-    - This document describes the REST API document for the orders service. The API lets cleints retrieve a list of orders in json and xml formats, used with Spring REST controllers. 
+- This document describes the REST API document for the orders service. The API lets cleints retrieve a list of orders in json and xml formats, used with Spring REST controllers. 
 
 ### Base URL
     - http://localhost:8080/service
