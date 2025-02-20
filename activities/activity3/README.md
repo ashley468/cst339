@@ -107,7 +107,7 @@ code to interface contracts?
 
 ## Rest API design Report
 ### Introduction
-- This document describes the REST API document for the orders service. The API lets cleints retrieve a list of orders in json and xml formats, used with Spring REST controllers. 
+- This document describes the REST API document for the orders service. The API lets clients retrieve a list of orders in Json and XML formats, used with Spring REST controllers. 
 
 ### Base URL
     - http://localhost:8080/service
@@ -126,15 +126,14 @@ code to interface contracts?
         - Request URL: http://localhost:8080/service/getxml
         - Format: XML
         - Description: Retrieves a list of products in XML format.
+
 ### Error Handling
 -----------------
 |**Status**|**Response**|
 |----------|------------|
-|500| Something went wrong|
-
-### API Conclusion
-- **Conclusion 
-
+|500| Error: Something went wrong|
+|401| Error: Invalid API Key|
+|400| Error: Invalid Database Version|
 
 
 ## Conclusion
