@@ -106,35 +106,178 @@ code to interface contracts?
     while the IoC container takes care of managing object dependencies and their lifecycle. 
 
 ## Rest API design Report
-### Introduction
-- This document describes the REST API document for the orders service. The API lets clients retrieve a list of orders in Json and XML formats, used with Spring REST controllers. 
+### API Specification Doc
+#### (Orders App)
+-----------------
+|**Version**|**Date**|**Author**|**Description**|
+|----------|------------|
+|1.0| 19-Feb-2025 | Ashley Barron | Initial draft|
 
-### Base URL
-    - http://localhost:8080/service
 
-### Endpoints
-    Json
-        - Endpoint: /getjson
-        - Method: Get
-        - Request URL: http://localhost:8080/service/getjson
-        - Format: Json
-        - Description: Retrieves a list of products in Json format.
+## Index
+1. User Authentication
+    - Login
+2. Orders
+    - Get Orders
+    - Put Orders
+    - Delete Orders
 
-    XML
-        - Endpoint: /getxml
-        - Method: Get
-        - Request URL: http://localhost:8080/service/getxml
-        - Format: XML
-        - Description: Retrieves a list of products in XML format.
+## Methods
+#### User Authentication
 
-### Error Handling
+## 1. login
+Authenticate the user with the system and obtain the auth_token
+
+### Request
+-----------------
+|**Method**|**URL**|
+|----------|------------|
+|POST| api/login/ |
+
+-----------------
+|**Type**|**Params**|**Values**|
+|----------|------------|------------|
+|Head| api_key | string |
+|POST| username | string |
+|POST| password | string |
+
+#### api_key
+- api_key  must be sent with all client requests. The api_key helps the server to validate the request source.
+
+
+### Response
 -----------------
 |**Status**|**Response**|
 |----------|------------|
-|500| Error: Something went wrong|
-|401| Error: Invalid API Key|
-|400| Error: Invalid Database Version|
+|200| { "auth_key": <auth_key> } auth_key (string) - all further API calls must have this key in header |
+|403| {"error":"API key is missing."}|
+|400| {"error":"Please provide username."}|
+|400| {"error":"Please provide password."}|
+|401| {"error":"Invalid API key."}|
+|401| {"error":"Incorrect username or password."}|
+|500| {"error":"Something went wrong. Please try again later."}|
 
+
+## 2. get Orders
+Get the new orders
+### Request
+-----------------
+|**Method**|**URL**|
+|----------|------------|
+|Get| api/orders/ |
+
+
+-------------------------------
+|**Type**|**Params**| **Values**|
+|----------|------------|------------|
+|Head| auth_key | key |
+
+
+#### auth_key
+- The  auth_key  that was given in response to /api/login
+
+#### version
+- The current version of internal order database. Each time when updates are pulled from the server through the web service, the internal database version is incremented.
+
+### Response
+-------------------------------
+|**Status**|**Response**|
+|----------|------------|
+|200| { id": 0,    "orderNo": "0000000000",    "productName": Product 0",    "price": 0,    "quantity": 0  }|
+|400| {"error":"Please specify database version."}|
+|400| {"error":"Invalid database version."}|
+|401| {"error":"Invalid API key."}|
+|500| {"error":"Something went wrong. Please try again later."}|
+
+## 3. Place Order
+Get the orders from the web interface, so that they can be placed in the internal database.
+
+### Request
+-----------------
+|**Method**|**URL**|
+|----------|------------|
+|Post| api/orders/ |
+
+-------------------------------
+|**Type**|**Params**| **Values**|
+|----------|------------|------------|
+|Head| auth_key | key |
+|Post| id | number |
+|Post| quantity | number|
+
+#### version
+The current version of the internal database. Each time when updates are pulled from the API, the internal database version increases.
+
+### Response
+-------------------------------
+|**Status**|**Response**|
+|----------|------------|
+|200| {    "id": 1,    "orderNo": "0000000001",    "productName": "Product 1",    "price": 1 "quantity": 1}|
+|400| {"error":"Please specify database version."}|
+|400| {"error":"Invalid database version."}|
+|401| {"error":"Invalid API key."}|
+|500| {"error":"Something went wrong. Please try again later."}|
+
+## 4. Delete Order
+Delete order by id
+### Request
+-----------------
+|**Method**|**URL**|
+|----------|------------|
+|Delete| api/orders/<orderNo>/ |
+
+-------------------------------
+|**Type**|**Params**| **Values**|
+|----------|------------|------------|
+|Head| auth_key | key |
+
+## orderNo
+Id of the order.
+
+### Response
+-----------------
+|**Status**|**Response**|
+|----------|------------|
+|200| { "message": "Order deleted successfully." } |
+|400| {"error":"Please provide orderNo."} |
+|400| {"error":"Invalid order."} |
+|401| {"error":"Invalid Auth key."} |
+|500| {"error":"Something went wrong. Please try again later."} |
+
+
+## Glossary
+#### Conventions
+- Client - Client application.
+- Status - HTTP status code of response.
+- All the possible responses are listed under ‘Responses’ for each method. Only one of them is issued per request server.
+- All response are in JSON format.
+- All request parameters are mandatory unless explicitly marked as [optional]
+- The type of values accepted for a request parameter are shown the the values column like this [10|<any number>] .The | symbol means OR. If the parameter is [optional], the default value is shown in blue bold text, as 10 is written in [10|<any number>].
+
+
+## Status Codes
+All status codes are standard HTTP status codes. The below ones are used in this API.
+
+- 2XX - Success of some kind
+- 4XX - Error occurred in client’s part
+- 5XX - Error occurred in server’s part
+-------------------------------
+|**Status Description**|**Description**|
+|----------|------------|
+|200|ok|
+|201|Created|
+|202|Accepted (Request accepted, and queued for execution)|
+|400|Bad request|
+|401|Authentication failure|
+|403|Forbidden|
+|404|Resource not found|
+|405|Method Not Allowed|
+|409|Conflict|
+|412|Precondition Failed|
+|413|Request Entity Too Large|
+|500|Internal Server Error|
+|501|Not Implemented|
+|503|Service Unavailable|
 
 ## Conclusion
 - In conclusion, @Component is a class-level annotation that designates a class as a Spring-managed component. 
