@@ -110,7 +110,7 @@ code to interface contracts?
 #### (Orders App)
 -----------------
 |**Version**|**Date**|**Author**|**Description**|
-|----------|------------|
+|----------|------------|------------|------------|
 |1.0| 19-Feb-2025 | Ashley Barron | Initial draft|
 
 
