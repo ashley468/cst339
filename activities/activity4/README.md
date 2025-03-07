@@ -20,3 +20,20 @@
 ### Part 3:  Creating Data Services Using Spring Data JDBC Native Queries
 ![OrdersPage3](ordersPage3.png)
 - This is a screenshot of the orders page for part 3. 
+
+## Research Questions - located in Activity Guide
+
+1. How does Spring Data JDBC differ from standard Java JDBC programming?
+
+2. How does Spring Data JDBC support transaction management and the ACID principle?
+
+## Research Answers
+
+1. Spring JDBC has connectivity with any one of jars RDMS such as MyQSL, Oracle, or SQL Server, through the use of JDBC drivers and JDBC Template. 
+On the other hand, Spring Data JDBC belongs to the Spring Data family. It provides astractions from JDBC-data based Data Access Layer. 
+One of the differences is the integration with the Spring Framework. 
+Although Spring JDBC offers a way of managing database connections and running SQL queries, it isn't completely integrated into the Spring Framework. 
+While Spring JDBC doesn't offer the same smooth integrtion as Spring Data JDBC, one may still leverage Spring's dependancy injection and transaction management features. 
+As a member of the Spring Data Family, Spring Data JDBC is made to closely work with Spring's configuration, dependency injection, and transaction management technologies. By using the best practices of the Spring ecosystem, this enabled better creation and improved management of database connections and transactions. 
+
+2. The @Transactional annotation in Spring is used by Spring Data JDBC to handle transactions. It supports declarative transaction management, which means that depending on whether a method is successful or unsuccessful, transactions are automatically started, committed, or rolled back. It also supports for isolation and propagation levels, giving smooth control over transaction behavior. Data from Spring JDBC guarantees that, in the even of an error, every operation in a transaction is either fully rolled back or fully completed. The framework guarantees data integrity, even in the event of a transaction failure and makes sure the database retains valid state through constraints. To prevent concurrent issues, it provides isolation levels such as READ_COMMITED. Even in the event of a system failure, changes made to a transaction are irreversible once they're committed. 
