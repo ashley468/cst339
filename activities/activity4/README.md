@@ -8,6 +8,34 @@
     - Configure an application to use Spring Data Java Database Connectivity (JDBC)
     - Persist data using the Data Access Object (DAO)/Repository design pattern to a relational database using Spring Data JDBC
 
+# MySQL Configuration
+
+# src/main/resources/application.properties
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/cst339
+spring.datasource.username=sqluser
+spring.datasource.password=password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
+* Open up MySQL Workbench
+* Select Create a new SQL tab for executing queries
+* First Icon with SQL Header and Plus "+" under Menu Item File
+
+*PIC!*
+
+* Copy and Paste (CST-339-RS-Activity4-MySQL2.txt) in SQL screen
+* Press Lightning Bolt without the cursor
+
+*PIC!*
+
+* Create a new Query
+* Select Create a new SQL tab for executing queries
+* Type: SELECT * FROM cst339.ORDERS;
+* Press Lightning Bolt without the cursor
+* Validate Table was populated with Data
+
+*PIC!*
+
 # Screenshots
 ### Part 1:  Creating Data Services Using Spring JDBC
 ![OrdersPage1](ordersPage1.png)
