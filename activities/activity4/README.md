@@ -13,3 +13,10 @@
 ![OrdersPage1](ordersPage1.png)
 - This is a screenshot of the orders page where it shows an updated version of the order number, product name, price, and quantity. 
 
+### Part 2:  Creating Data Services Using Spring Data JDBC
+![OrdersPage2](ordersPage2.png)
+- This is a screenshot of the orders page for part 2. 
+
+### Part 3:  Creating Data Services Using Spring Data JDBC Native Queries
+![OrdersPage3](ordersPage3.png)
+- This is a screenshot of the orders page for part 3. 
