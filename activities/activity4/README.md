@@ -21,12 +21,12 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 * Select Create a new SQL tab for executing queries
 * First Icon with SQL Header and Plus "+" under Menu Item File
 
-*PIC!*
+![OpenWorkbench](openWorkbench.png)
 
 * Copy and Paste (CST-339-RS-Activity4-MySQL2.txt) in SQL screen
 * Press Lightning Bolt without the cursor
 
-*PIC!*
+![CopyPaste](copyPaste.png)
 
 * Create a new Query
 * Select Create a new SQL tab for executing queries
@@ -34,7 +34,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 * Press Lightning Bolt without the cursor
 * Validate Table was populated with Data
 
-*PIC!*
+![NewQuery](newQuery.png)
 
 # Screenshots
 ### Part 1:  Creating Data Services Using Spring JDBC
