@@ -18,10 +18,10 @@
 ![OrdersPageMongo](ordersPageMongo.png)
 
 - This is a screenshot of the JSON Page
-*Pic*
+![Json](json.png)
 
 - This is a screenshot of the XML Page
-*Pic*
+![XML](xml.png)
 
 ### Part 2: Adding New Queries in the MongoDB Repository
 - This is a screenshot of getOrder of a good ID in the Browser
