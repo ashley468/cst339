@@ -15,7 +15,7 @@
 ## Screenshots
 ### Part 1: Creating Data Services Using Spring Data MongoDB
 - This is a screenshot of the Orders Page.
-*Pic*
+![OrdersPageMongo](ordersPageMongo.png)
 
 - This is a screenshot of the JSON Page
 *Pic*
