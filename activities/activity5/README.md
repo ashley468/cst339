@@ -8,7 +8,7 @@
     - Configure an application to use Spring Data MongoDB
     - Persist data using the Data Access Object (DAO)/Repository design pattern to a non-relational database using Spring Data MongoDB
 
-## MongoDB (*Links?**)
+## MongoDB
 - MongoDB Installation and Configuration
 - MongoDB Database Procedures
 
@@ -25,17 +25,16 @@
 
 ### Part 2: Adding New Queries in the MongoDB Repository
 - This is a screenshot of getOrder of a good ID in the Browser
-*Pic*
+![GoodIdBrowser](goodIdBroswer.png)
 
 - This is a screenshot of getOrder of a good ID in Postman
-*Pic*
+![GoodId](goodId.png)
 
 - This is a screenshot of getOrder of a bad ID in the Browser
-*Pic*
+![BadIdBrowser](badIdBrowser.png)
 
 - This is a screenshot of getOrder of a bad ID in Postman
-*Pic*
-
+![BadId](badId.png)
 
 ## Research Questions
 ### Questions
@@ -49,4 +48,4 @@
 2. Relational databases use SQL for queries and aranging data into tables with specified schemas. By using foreign and primary keys to strengthen links across tables, they ensure data integrity and facilate complex, structured queries. However, non-relational databases could manage semi-structured or unstructured data since the provide more flexible schemas and store data in a variety of formats such as graphs or documents. Relational databases give three benefits which are data integrity, structured capabilities, and high consistency. Data integrity enforces restrictions to ensure valid data, structured query capabilities enables difficult searches for accurate analysis, and high consistency ensures acurate and dependable transactions. Yet, non-relational databases provide faster performance, high scalability, and flexible data modeling. The faster performance optimizes read and write operations for bigger volumes of data, high scalability easily handles large datasets by providing data across servers, and flexible data modeling allows quick changes to data structures without disruption. The requirements of the application will determine which of the two is best, NoSQL is more suitable for managing large dynamic datasets with changing structures, while relational databases are best for structured, consistent data. 
 
 ## Conclusion
-- *ucdhf
+- In conclusion, this activity gave hands on experience integrating Spring Data MongoDB into an application and showing them how to use the DAO repository design pattern. We developed a better understanding of how non-relational databases work inside a Spring Biit application by setting up MongoDB, putting data services into place, and adding new queries. The importance of appropriate error handling and response status management was further emphasized by testing the API responses in a browser and postman. In order to evaluate the relative benefits of relational and non-relational databases based on the requirements of the application, the research component also highlighted the main differences between the two types of databases. Overall, this activty improved our understanding of MongoDB, database architecture, and API development, which are essential skills for working with modern, scalable applications, 
