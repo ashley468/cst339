@@ -70,14 +70,19 @@ public class SecurityConfig {
 ```
 
 # Postman Setup
-*check out links!!!
 - GET: http://localhost:8080/service/getjson
 - GET: http://localhost:8080/service/getxml
 - Auth Type:  Basic Auth
 
 # Execute Application in Browser
 - https://localhost:8080/login
+
+
+# Screnshots
+## Part 1: Securing a Web Application Using an In-Memory Datastore
+
 - Shown below the login page
+
 
 ![loginPage](loginPage.png)
 
@@ -111,6 +116,17 @@ public class SecurityConfig {
 - Postman Get XML
 ![XMLProducts](xmlProducts.png)
 
+## Part 2: Securing a Web Application using a Database
+- Part 2 was not achievable with the materials provided by the University
+
+## Part 3: Securing REST APIs Using Basic HTTP Authentication
+- Part 3 was not achievable with the materials provided by the University
+
+**part 4?
+## Part 4: Securing REST APIs Using OAuth2 Authentication
+- ***
+
+
 ## Research Questions
 ### Research Questions: For traditional ground students, answer the following questions in a Microsoft Word document:
 
@@ -119,8 +135,9 @@ public class SecurityConfig {
 2. Research the Basic HTTP authentication schema. Describe how this works. How does this technology help secure a REST API endpoint?
 
 ### Research Answers
-1. **
-2. **
+1. An authentication scheme is a method that confirms a user's identity or system. When using forms-based authentications, users need to give infromation such as their username and passwrod, which are later checked against a database. If it's a success, access is given and authentication is tracked by a token or session. This method keeps guard against risks such as brute force attacks while providing configurable login and logout prcedures. Spring Security is recommended over creating a custom security framework since it offers built-in authentication, it allows many authentication methods, adheres to industry best practices, and reduces development time while maintaining strong security. 
+
+2. **With basic HTTP authentication, users give their username and password in the autherization header, which is a Base64 encoded. If the credentials are valid, the server decodes them and compares them to a database before granting access. By restricting access to certain resources to authorized users, this method helps secure a RESTful API endpoint. It work better when used with HTTPS, which defends against interception by securing the credentials while they're being transmitted. Despite being straightforward, it isn't as safe as more advanced methods such as OAuth2, since credentials are given with each request, leaving it open to attack if improperely secured. 
 
 # Conclusion
 - **
