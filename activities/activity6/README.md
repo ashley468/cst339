@@ -79,30 +79,30 @@ public class SecurityConfig {
 - https://localhost:8080/login
 - Shown below the login page
 
-*** pic!!!
+![loginPage](loginPage.png)
 
 - Enter Username:  test
 - Enter Password:  test
 - Press:  Sign in
 - Shown below the Orders Display Link
 
-*orders display link!!!
+[Go to /orders/display](http://localhost:8080/orders/display)
 
 - Once pressed the Orders Page appears as shown below
-***pic!!!!
+![OrdersPage](ordersPage4.png)
 
 - Press Logout to return to Login Page
 
 ## Logout Page
 - You have been signed out page
-***pic!!!!
+![SignedOut](signedoutPage.png)
 
 ## Invalid Input
 - Enter invalid user
-***pic!!!!
+![InvalidUser](invalidUser.png)
 
 - Bad Credentials Return
-***pic!!!!
+![BadCredentials](badCredentials.png)
 
 ## Postman
 - Postman Get JSON
@@ -111,3 +111,16 @@ public class SecurityConfig {
 - Postman Get XML
 ***pic!!!!
 
+## Research Questions
+### Research Questions: For traditional ground students, answer the following questions in a Microsoft Word document:
+
+1. Research the Forms Based authentication scheme. Describe how this works. Why it is important to use the Spring Security framework versus developing your own custom security framework?
+
+2. Research the Basic HTTP authentication schema. Describe how this works. How does this technology help secure a REST API endpoint?
+
+### Research Answers
+1. **
+2. **
+
+# Conclusion
+- **
