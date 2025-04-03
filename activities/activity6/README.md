@@ -106,10 +106,10 @@ public class SecurityConfig {
 
 ## Postman
 - Postman Get JSON
-***pic!!!!
+![JsonProducts](jsonProducts.png)
 
 - Postman Get XML
-***pic!!!!
+![XMLProducts](xmlProducts.png)
 
 ## Research Questions
 ### Research Questions: For traditional ground students, answer the following questions in a Microsoft Word document:
