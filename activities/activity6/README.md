@@ -122,7 +122,6 @@ public class SecurityConfig {
 ## Part 3: Securing REST APIs Using Basic HTTP Authentication
 - Part 3 was not achievable with the materials provided by the University
 
-**part 4?
 ## Part 4: Securing REST APIs Using OAuth2 Authentication
 ### Screenshots: Part 4
 ![GitHubPage](t6-4github.png)
