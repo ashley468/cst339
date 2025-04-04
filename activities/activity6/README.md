@@ -124,7 +124,12 @@ public class SecurityConfig {
 
 **part 4?
 ## Part 4: Securing REST APIs Using OAuth2 Authentication
-- ***
+### Screenshots: Part 4
+![GitHubPage](t6-4github.png)
+- This is a screenshot of the topic6-4 running. When it first started it, it asked for my autherization before greeting me with my name. 
+
+![HelloUserPage](t6-4helloo.png)
+- This is a screenshot of the topic6-4 after giving autherization. Now every time I run the program, it greets me with my name, though in this case, it instead of greeting me with my name, it greets me with an assigned number. 
 
 
 ## Research Questions
