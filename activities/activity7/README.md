@@ -31,8 +31,41 @@
 
 ![AppOrders](ordersPage.png)
 
-## Part 2
+## Part 2:  Integrating a REST Service Registry and Discovery Service
+- These are the Eureka Screenshots
 
+## Eureka - Integrating a REST Service Registry and Discovery Service
+- Create a new Spring Boot Project
+    - Spring Eureka Server
+    - Spring Boot Actuator
+- Update application.properties
+
+## Eureka Dashboard Execution and Test
+- http://localhost:8761/
+
+![Eureka1](eureka1.png)
+
+### Eureka Services
+- Copy Topics 7-1 to 7-2
+- Make appropriate updates to POM files
+- Update application.properties
+- Update TestController class in Topic 7-2c
+
+**NOTE:  @EnableEurekaClient Annotation is no longer required
+
+![Eureka2](eureka2.png)
+
+- Eureka App
+
+![Demo](demo.png)
+
+- Eureka Users
+
+![List](list.png)
+
+- Eureka Orders
+
+![List2](list2.png)
 
 
 ## Research Questions
