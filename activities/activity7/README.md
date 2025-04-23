@@ -13,19 +13,16 @@
 ## Screenshots
 ### Part 1: Building a Web Application That Consumes Microservices
 - These are the screenshots of the Microservice calls
-**pic1
-- hughu
+![UsersPage](usersPage.png)
 
-**pic2
-- ijij
+
+![Usersjson](usersJson.png)
 
 
 - This is a screenshot of the Orders Page
-**pic1
-- ijjo
+![ProductsPage](productsPage.png)
 
-**pic2
-- kok
+![ProductsJson](productsJson.png)
 
 - These are the screenshots of the Overall Microservice Application
 ** pic1
