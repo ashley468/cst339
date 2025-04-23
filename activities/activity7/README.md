@@ -47,9 +47,9 @@
 
 
 ### Research Answers:
-1. *lpjk
+1. Software can be designed using microservices, which are groups of tiny, independent services, each in charge of a particular task.  It is possible to build, implement, and expand these services independently.  The entire application is constructed as a single unit in traditional monolithic architecture, which makes it more difficult to grow or update separate components.  More flexibility, autonomous teamwork, and the ability to use different technologies for distinct services are all made possible by microservices.
 
-2. *jijgt
+2. There may be a number of difficulties while switching from a monolithic architecture to microservices.  First, it might be difficult and time-consuming to divide a monolithic software into separate services.  Second, since each microservice could require its own database, data administration becomes more challenging and requires careful design to prevent data inconsistencies.  Third, since services now need to communicate with each other over a network, problems like message failures and latency can arise.  Fourth, the more services that must be tracked and managed, the more complex deployment and monitoring become.  Lastly, developers have to make sure that services preserve their independence while working together correctly, which may make team coordination more difficult.
 
 ## **CHRISTIAN WORLDVIEW COMPONENT***!!!!
 - *hjjssj
