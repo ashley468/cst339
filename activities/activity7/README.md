@@ -1,10 +1,13 @@
-# Activity 7
+# CST339 - Activity 7 - Microservices
 
 - Date: *2025-4-23*
 - Author: **Ashley Barron**
 
 ## Introcution:
-- *hhbh
+- This activity will provide the following:
+    - Describe microservices and how they differ from traditional monolithic architectures
+    - Describe the challenges when moving from traditional monolithic architectures to a microservice architecture style
+    - Examine the application of the Christian worldview within programming
 
 
 ## Screenshots
