@@ -12,11 +12,18 @@
 - hhhh
 
 
-## *Research Questions?:
-1. #jii
+## Research Questions
+### Research Questions: For traditional ground students, answer the following questions in a Microsoft Word document:
 
-## *Research Answers?:
+1. Research microservices. Describe what they are. How does this architecture style differ from traditional monolithic architectures?
+
+2. Research microservices. What are 5 challenges you might encounter when modifying a monolithic architecture to this architecture style?
+
+
+### Research Answers:
 1. *lpjk
+
+2. *jijgt
 
 
 ## Conclusion:
