@@ -11,8 +11,34 @@
 
 
 ## Screenshots
+### Part 1: Building a Web Application That Consumes Microservices
+- These are the screenshots of the Microservice calls
+**pic1
+- hughu
 
-- hhhh
+**pic2
+- ijij
+
+
+- This is a screenshot of the Orders Page
+**pic1
+- ijjo
+
+**pic2
+- kok
+
+- These are the screenshots of the Overall Microservice Application
+** pic1
+- huh
+
+** pic2
+- huh
+
+** pic3
+- huh
+
+## Part 2
+
 
 
 ## Research Questions
