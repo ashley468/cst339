@@ -96,9 +96,5 @@ Businesses with robust security procedures save millions in breach expenses, acc
 
 
 ## Conclusion:
-- Our comprehension of microservices and their distinctions from conventional monolithic designs has improved as a result of this activity.  We demonstrated how microservices facilitate more adaptable, scalable, and modular programming by creating and evaluating applications that depend on distinct service components.  We also looked into using Eureka for communication between services and dynamic service discovery.
-
-- Although moving from monolithic systems to microservices presents certain difficulties, such as data management, communication, and deployment, they may be resolved with careful design and planning.  All things considered, microservices facilitate agile development and result in more effective workflows.
-
-- The significance of moral development techniques was brought to light by incorporating a Christian viewpoint.  In order to uphold biblical values and foster trust in the tech community, it is our responsibility as developers to safeguard user data and behave honorably.
+- Our comprehension of microservices and their distinctions from conventional monolithic designs has improved as a result of this activity.  We demonstrated how microservices facilitate more adaptable, scalable, and modular programming by creating and evaluating applications that depend on distinct service components.  We also looked into using Eureka for communication between services and dynamic service discovery. Although moving from monolithic systems to microservices presents certain difficulties, such as data management, communication, and deployment, they may be resolved with careful design and planning.  All things considered, microservices facilitate agile development and result in more effective workflows. The significance of moral development techniques was brought to light by incorporating a Christian viewpoint.  In order to uphold biblical values and foster trust in the tech community, it is our responsibility as developers to safeguard user data and behave honorably.
 
