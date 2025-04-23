@@ -25,6 +25,8 @@
 
 2. *jijgt
 
+## **CHRISTIAN WORLDVIEW COMPONENT***!!!!
+- *hjjssj
 
 ## Conclusion:
 - *jij
